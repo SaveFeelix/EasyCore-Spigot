@@ -25,9 +25,9 @@ public abstract class EasyPlugin extends JavaPlugin {
     @Override
     public abstract void onLoad();
     @Override
-    public abstract void onDisable();
-    @Override
     public abstract void onEnable();
+    @Override
+    public abstract void onDisable();
 
     /**
      * Method to initialize Commands
